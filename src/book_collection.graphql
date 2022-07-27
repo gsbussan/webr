@@ -1,0 +1,12 @@
+query BookCollection
+                    {bookCollection
+                        {items
+                              {title 
+                              description
+                              price 
+                              image
+                                  {title 
+                                  url}
+                              }
+                        }
+                    }
